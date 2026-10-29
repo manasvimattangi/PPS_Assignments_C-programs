@@ -1,1 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    int b;
+    printf("1st Number: ");
+    scanf("%d",&a);
+    printf("2nd Number: ");
+    scanf("%d",&b);
+    
+    printf("Sum of a and b: %d\n",a+b);
+    printf("Difference of a and b: %d\n",a-b);
+    printf("Multiplication of a and b: %d\n",a*b);
+    printf("Division of a and b: %d\n",a/b);
 
+    return 0;
+}
